@@ -14,14 +14,14 @@ const NavBar = () => {
                     <h1>Info4</h1>
                 </div>
                 <div className='SubdivisionNav2'>
-                    <a><img src={IconoFacebook}/></a>
-                    <a><img src={IconoFacebook}/></a>
-                    <a> <img src={IconoFacebook}/></a>
-                    <a><img src={IconoFacebook}/></a>
+                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
+                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
+                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
+                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
                 </div>
             </div>
             <div className="NavLogo">
-                <img src={Logo} className='Logo'></img>
+                <img src={Logo} className='Logo' alt="Logo"></img>
             </div>
             <div className="NavBtn">
                 <button>Boton1</button>
