@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from '../images/Logo.png'
-import IconoFacebook from '../images/IconoFacebook.png'
+import Isotipo from '../images/Isotipo.png'
+
 
 
 const NavBar = () => {
@@ -8,28 +8,33 @@ const NavBar = () => {
         <div className='NavBarWrap'>
             <div className='NavRedes'>
                 <div className='SubdivisionNav'>
-                    <h1>Info1</h1>
-                    <h1>Info2</h1>
-                    <h1>Info3</h1>
-                    <h1>Info4</h1>
-                </div>
-                <div className='SubdivisionNav2'>
-                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
-                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
-                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
-                    <a href="#"><img src={IconoFacebook} alt="Facebook"/></a>
+                    <h1>+ (123) 1800-567-8990</h1>
+                    <h1>Mon - Fri: 9:00 - 19:00 / Closed on Weekends</h1>
+                    <h1>office@example.com</h1>
                 </div>
             </div>
             <div className="NavLogo">
-                <img src={Logo} className='Logo' alt="Logo"></img>
+                <div className='NavLgo'>
+                    <img src={Isotipo} className='Logo' alt="Logo"></img>
+                </div>
+                <div className='NavBtns'>
+                    <button>Inicio</button>
+                    <button>Sobre Nosotros</button>
+                    <button>Servicios</button>
+                    <button>Productos</button>
+                    <button>Reseñas</button>
+                    <button>Galería</button>
+                    <button>Contáctanos</button>
+                </div>
+                
             </div>
-            <div className="NavBtn">
+            {/* <div className="NavBtn">
                 <button>Boton1</button>
                 <button>Boton2</button>
                 <button>Boton3</button>
                 <button>Boton4</button>
                 <button>Boton5</button>
-            </div>
+            </div> */}
         </div>
     )
 }
