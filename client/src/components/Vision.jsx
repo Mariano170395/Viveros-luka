@@ -8,16 +8,20 @@ const Vision = () => {
     const VisionImg = [
 
         {
-            image: Foto1
+            image: Foto1,
+            text: "Proyectos de Compensación"
         },
         {
-            image: Foto2
+            image: Foto2,
+            text: "Proyectos de Jardinería"
         },
         {
-            image: Foto3
+            image: Foto3,
+            text: "Proyectos de Paisajismo"
         },
         {
-            image: Foto3
+            image: Foto3,
+            text: "Consejos y Cuidados"
         }
    ];
 
@@ -37,7 +41,7 @@ const Vision = () => {
                             <img src={item.image} key={item.index} alt='Proyectos' className='ImgVision'></img>
                         </div>
                         <div className='ItemTextoVision'>
-
+                            <h1>{item.text}</h1>
                         </div>
                     </div>
 

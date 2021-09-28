@@ -171,6 +171,17 @@
   background-color: rosybrown;
 }
 
+.ItemTextoVision{
+  width: 100%;
+  height: 10vmin;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.ItemTextoVision h1{
+  font-size: 2.5vmin;
+}
+
 .ImgVision {
   width: 100%;
   height: 30vmin;
